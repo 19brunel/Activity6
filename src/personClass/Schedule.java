@@ -13,12 +13,12 @@ public class Schedule {
 		scheduledMeetings[4] = "Meeting 5";
 	}
 	public Schedule(String a, String b, String c, String d, String e){
-		scheduleMeetings = new String[5];
-		scheduleMeetings[0] = a;
-		scheduleMeetings[1] = b;
-		scheduleMeetings[2] = c;
-		scheduleMeetings[3] = d;
-		scheduleMeetings[4] = e;
+		scheduledMeetings = new String[5];
+		scheduledMeetings[0] = a;
+		scheduledMeetings[1] = b;
+		scheduledMeetings[2] = c;
+		scheduledMeetings[3] = d;
+		scheduledMeetings[4] = e;
 	}
 	
 	public String mySchedule(){
