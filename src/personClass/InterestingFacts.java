@@ -15,10 +15,10 @@ public class InterestingFacts {
 		String current = null;
 		
 		for(int x = 1; x <= funFacts.size(); x++){
-			current =  current + x + ". " + funFacts.get(x-1);
+			current =  current +" "+ x + ". " + funFacts.get(x-1);
 		}
 		
-		
+		current = current.substring(5);
 		return current;
 	}
 	
